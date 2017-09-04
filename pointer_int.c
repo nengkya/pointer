@@ -2,10 +2,8 @@
  
 int main()
 {
-  int* var[] = {
-                (int[]){1, 2},
-                (int[]){3, 4}  /*, = optional*/
-               };
+  int* var[] = { (int[]){1, 2}, (int[]){3, 4} };
+  int* ip;
 
   int a = var[0][0]; /*bener*/
   int b = var[0][1]; 
