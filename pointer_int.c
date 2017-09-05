@@ -2,7 +2,7 @@
  
 int main()
 {
-  int* var[] = { (int[]){1, 2}, (int[]){3, 4} };
+  int* var[] = { (int[]){1, 2}, (int[]){3, 4, 5} };
   int* ip;
 
   int a = var[0][0]; /*bener*/
